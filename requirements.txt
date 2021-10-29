@@ -1,3 +1,6 @@
 torch
 ray[rllib]
 ray[default]
+wandb
+moviepy
+imageio
