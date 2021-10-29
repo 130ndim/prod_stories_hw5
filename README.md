@@ -9,6 +9,13 @@
 3. Run training
 `python ppo_example.py`
    
+### Model
+A simple CNN
+
+3 conv layers (16, 32, 32)
+
+2 layer output FFN (32, 32)
+   
 ### Reward
 The reward is a normalized sum of:
 1. 10 * new_explored
@@ -18,7 +25,7 @@ The reward is a normalized sum of:
 
 ### Dashboard
 
-[WandB log](https://wandb.ai/leonov/vac/runs/765rxorj/overview?workspace=user-leonov) that contains plots and .gif files with running agent.
+[WandB log](https://wandb.ai/leonov/vac/runs/765rxorj/overview?workspace=user-leonov) that contains hyperparameters, plots and .gif files with running agent.
 
 ### Future steps
 1. To make the model see previous frames. (E.g. 3D-CNN, CNN-LSTM)
